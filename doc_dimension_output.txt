@@ -1,0 +1,158 @@
+/usr/local/bin/python3.7 /Users/yangxueqi/PycharmProjects/intrinsic_final/doc_dimension.py
+Time: 2020-11-11 13:06:09.471511
+[Configuration]
+'est_config' : ====== Intrinsic Dim Estimation of real dataset ======
+'log_dir' : exp/realcase/log
+'log_filename' : est.log
+'logrs' : -10:10:100
+
+>> filename: slack-model
+>> orginal dim: 10
+>> size of dataset: 192
+>> creating intrinsic dimension solver
+>> solving...
+ues L2 norm to compute the distance
+>> utilize L2 distance to estimate the intrinsic dimensionality
+candidate estiamted instrinsic dim: [-0.          0.02101914 -0.         -0.          0.08319524 -0.
+ -0.         -0.          0.02058215  0.3181818   0.01922333  0.68012935
+  0.01669479  0.01663867  0.08236463  1.15979581 -0.          0.23966464
+  0.01229814  1.57522922  0.65986339  0.06988351  0.07650848  0.16426847
+  0.97056744  0.12517223  0.26360395  0.07751836  0.12477373  0.32649194
+  0.12381836  0.22003622  0.14295358  0.07667579  0.11938944  0.10803572
+  0.15568644  0.25431602  0.3493781   0.39451881  0.43409093  0.34151471
+  0.35731403  0.48205764  0.4437198   0.5291235   0.75615891  1.10145832
+  1.54426957  2.95398999  2.62710029  0.9399487   0.00810545 -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.        ]
+the max instrinsic dim is: 2.953989987659012
+Save curve to exp/realcase/doc_dimension_slack_L2.png
+>> task finished
+
+Process finished with exit code 0
+
+
+------------------------------------------------------------
+/usr/local/bin/python3.7 /Users/yangxueqi/PycharmProjects/intrinsic_final/doc_dimension.py
+Time: 2020-11-11 13:09:43.254548
+[Configuration]
+'est_config' : ====== Intrinsic Dim Estimation of real dataset ======
+'log_dir' : exp/realcase/log
+'log_filename' : est.log
+'logrs' : -10:10:100
+
+>> filename: facebook-model
+>> orginal dim: 10
+>> size of dataset: 48
+>> creating intrinsic dimension solver
+>> solving...
+ues L2 norm to compute the distance
+>> utilize L2 distance to estimate the intrinsic dimensionality
+candidate estiamted instrinsic dim: [-0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.          0.86304927
+  0.19414253 -0.         -0.          1.02781486 -0.          0.30009188
+ -0.          0.55056689 -0.         -0.          0.37613024  0.23575884
+  1.21835869 -0.          0.51252636 -0.          0.53773751  0.28293415
+  0.26763275  0.49541312  0.3962114   0.16055461  0.15551017  0.15077308
+ -0.          0.04925414  0.04876887  0.04829307  0.18859424  0.22606668
+  0.08761291  0.17070657  0.16501528  0.12024883  0.52549297  0.34388825
+  1.30636367  2.80641526  4.11282125  1.79446269 -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.        ]
+the max instrinsic dim is: 4.112821254563017
+Save curve to exp/realcase/doc_dimension_facebook_L2.png
+>> task finished
+
+Process finished with exit code 0
+
+
+------------------------------------------------------------
+/usr/local/bin/python3.7 /Users/yangxueqi/PycharmProjects/intrinsic_final/doc_dimension.py
+Time: 2020-11-11 13:12:08.249984
+[Configuration]
+'est_config' : ====== Intrinsic Dim Estimation of real dataset ======
+'log_dir' : exp/realcase/log
+'log_filename' : est.log
+'logrs' : -10:10:100
+
+>> filename: slack-model
+>> orginal dim: 10
+>> size of dataset: 192
+>> creating intrinsic dimension solver
+>> solving...
+ues L1 norm to compute the distance
+>> utilize L1 distance to estimate the intrinsic dimensionality
+candidate estiamted instrinsic dim: [ 0.51252636  0.75143976  0.3585277   0.04304375  0.06387185 -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.          0.02110877 -0.          0.02101914 -0.         -0.
+  0.10377739 -0.          0.33740512  0.69682414  0.01663867  1.24216044
+  0.22733587  1.59985613  0.7297469   0.27006697  1.072332    0.35169426
+  0.43982402  0.51802622  0.2464509   0.55959686  0.73613318  0.72132947
+  0.60424419  1.18181967  1.146594    5.8243695   2.92008367 -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.        ]
+the max instrinsic dim is: 5.8243695005750675
+Save curve to exp/realcase/doc_dimension_slack_L1.png
+>> task finished
+
+Process finished with exit code 0
+
+
+------------------------------------------------------------
+/usr/local/bin/python3.7 /Users/yangxueqi/PycharmProjects/intrinsic_final/doc_dimension.py
+Time: 2020-11-11 13:14:11.266575
+[Configuration]
+'est_config' : ====== Intrinsic Dim Estimation of real dataset ======
+'log_dir' : exp/realcase/log
+'log_filename' : est.log
+'logrs' : -10:10:100
+
+>> filename: facebook-model
+>> orginal dim: 10
+>> size of dataset: 48
+>> creating intrinsic dimension solver
+>> solving...
+ues L1 norm to compute the distance
+>> utilize L1 distance to estimate the intrinsic dimensionality
+candidate estiamted instrinsic dim: [-0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.          0.86304927  0.19414253  1.02781486
+  0.30009188  0.55056689 -0.          0.61188908  1.3075503   0.50382434
+  0.74018208  1.04925274  0.52709323  0.04974916  0.24151131  0.13944584
+  0.26763275  0.33572185  0.88894861  5.48313114  4.63761317 -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.         -0.         -0.
+ -0.         -0.         -0.         -0.        ]
+the max instrinsic dim is: 5.4831311388283295
+Save curve to exp/realcase/doc_dimension_facebook_L1.png
+>> task finished
+
+Process finished with exit code 0
+
